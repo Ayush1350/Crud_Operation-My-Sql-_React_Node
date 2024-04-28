@@ -1,0 +1,53 @@
+.operation-Crud {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 35vw;
+    margin: 3vh 35vw; 
+    border: 2px solid black;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.data-Crud {
+    margin-top: 0.9rem;
+    margin-left: 10rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    border: 2px dotted black;
+}
+
+.button-Crud {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 5rem;
+    
+   
+}
+
+.search-Crud input {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+#deleteBtn {
+    background-color: rgb(239, 137, 119);
+}
+
+#updateBtn {
+    margin-left: 0.5rem;
+    background-color: rgb(130, 209, 130);
+}
+
+.insertBtn {
+    background-color: rgb(130, 209, 130);
+    font-size: 14px;
+
+}
+
+button {
+    border-radius: 10px;
+}
